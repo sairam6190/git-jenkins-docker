@@ -1,3 +1,3 @@
 FROM openjdk:8
-ADD target/docker-jenkins.jar app.jar
+ADD target/docker-jenkins.jar.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
